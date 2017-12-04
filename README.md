@@ -4,6 +4,5 @@ EasyAnntion是一套便捷式注解框架，利用注解进行xml与界面(Activ
 ## 实现原理
 注解的基本实现用到了Java反射(如果对反射的性能比较敏感的就慎用了)，View模块化以及通用型Adapter的实现大量的用到了Java的一些东西(泛型、类的基本属性以及Java的一些API等)。
 ## 使用方法
-	gradle引入
-	<pre><code>compile 'org.chengnuovax:easyanontion-api:1.0.0'</code></pre>
-	
+### gradle引入
+	compile 'org.chengnuovax:easyanontion-api:1.0.0'
