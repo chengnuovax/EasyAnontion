@@ -6,7 +6,10 @@
 
     <TextView
         android:id="@+id/mText"
+        android:layout_marginTop="5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="这里是模块化view" />
+        android:layout_gravity="center_horizontal"
+        android:text="这里是模块化view"
+        android:textSize="18sp" />
 </LinearLayout>

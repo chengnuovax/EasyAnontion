@@ -2,6 +2,7 @@ package com.example.android.demo;
 
 import android.content.Context;
 import android.support.annotation.Nullable;
+import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.widget.TextView;
 
@@ -24,5 +25,11 @@ public class ModleLayout extends FrameViewGroup {
 
     public ModleLayout(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
+    }
+
+    public void setText(String s) {
+        if (!TextUtils.isEmpty(s)) {
+            mText.setText(s);
+        }
     }
 }

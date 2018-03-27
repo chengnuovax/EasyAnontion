@@ -27,6 +27,7 @@ public class MainActivity extends FrameActivity {
         super.onCreate(savedInstanceState);
     }
 
+    //以下是两种绑定view的点击方式
     @Click
     void text() {
 
