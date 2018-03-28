@@ -3,8 +3,6 @@ package com.example.android.demo;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
-import android.widget.ListView;
-import android.widget.TextView;
 
 import morexcess.chengnuovax.easyanontion.FrameActivity;
 import morexcess.chengnuovax.easyanontion.simpleannotion.annotion.Click;
@@ -16,27 +14,32 @@ public class MainActivity extends FrameActivity {
     /**
      * 以下两种绑定View的方式
      */
+    @ViewById(R.id.mButtonListView)
+    Button mButtonListView;//查看ListView界面
+
     @ViewById
-    TextView text;
-    @ViewById(R.id.mButton)
-    Button button;
+    Button mButtonRecyclerView;//查看RecyclerView界面
+
+    @ViewById(R.id.mButtonFragment)
+    Button mButtonFragment;//查看Fragment界面
 
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-    }
-
-    //以下是两种绑定view的点击方式
-    @Click
-    void text() {
-
-    }
-
-    @Click(R.id.mButton)
+    @Click(R.id.mButtonListView)
     void trans() {
-        Intent intent = new Intent(this, TwoActivity.class);
+        Intent intent = new Intent(this, ListViewActivity.class);
         intent.putExtra("data", 12);
+        startActivity(intent);
+    }
+
+    @Click
+    void mButtonRecyclerView() {
+
+    }
+
+    @Click
+    void mButtonFragment() {
+        Intent intent = new Intent(this, FragmentActivity.class);
+        intent.putExtra("data", "跳转到Fragment界面");
         startActivity(intent);
     }
 }

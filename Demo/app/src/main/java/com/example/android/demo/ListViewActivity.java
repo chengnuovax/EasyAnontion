@@ -19,8 +19,8 @@ import morexcess.chengnuovax.easyanontion.simpleannotion.annotion.ViewById;
  * 作者：zhangshupei on 2017/9/29 15:43
  * 邮箱：1129943175@qq.com
  */
-@EActivity(R.layout.activity_two)
-public class TwoActivity extends FrameActivity implements HolderListen {
+@EActivity(R.layout.activity_list_view)
+public class ListViewActivity extends FrameActivity implements HolderListen {
     @ViewById
     ModleLayout mModleLayout;
     @ViewById

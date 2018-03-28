@@ -15,7 +15,7 @@ import morexcess.chengnuovax.easyanontion.simpleannotion.annotion.ViewById;
  * 作者：zhangshupei on 2018/03/27 0027 15:25
  * 邮箱：1129943175@qq.com
  */
-@Layout(R.layout.two_list_item)
+@Layout(R.layout.list_item_item)
 public class ListHolder extends BaseHolder<HolderListen> {
     /**
      * view绑定
