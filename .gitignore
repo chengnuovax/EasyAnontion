@@ -38,3 +38,9 @@ captures/
 
 # Keystore files
 *.jks
+Demo/.idea/compiler.xml
+Demo/.idea/copyright/profiles_settings.xml
+Demo/.idea/gradle.xml
+Demo/.idea/misc.xml
+Demo/.idea/modules.xml
+Demo/.idea/runConfigurations.xml

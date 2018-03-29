@@ -5,6 +5,7 @@ import android.support.annotation.Nullable;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import morexcess.chengnuovax.easyanontion.BaseFragment;
 import morexcess.chengnuovax.easyanontion.simpleannotion.annotion.Click;
 import morexcess.chengnuovax.easyanontion.simpleannotion.annotion.EFragment;
 import morexcess.chengnuovax.easyanontion.simpleannotion.annotion.EFragmentArg;
