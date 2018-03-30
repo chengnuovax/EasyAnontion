@@ -33,7 +33,9 @@ public class MainActivity extends FrameActivity {
 
     @Click
     void mButtonRecyclerView() {
-
+        Intent intent = new Intent(this, RecyclerActivity.class);
+        intent.putExtra("data", "跳转到RecyclerView界面");
+        startActivity(intent);
     }
 
     @Click
