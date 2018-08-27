@@ -12,4 +12,7 @@
         android:layout_gravity="center_horizontal"
         android:text="这里是模块化view"
         android:textSize="18sp" />
+        <com.example.android.demo.ModleLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
 </LinearLayout>
